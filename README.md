@@ -15,7 +15,7 @@ pueden definir como los moldes que se van a usar para crear los metodos de las f
 
 **Herencia:** que permitió reutilizar código y establecer relaciones entre clases, haciendo el sistema más limpio, flexible y escalable.
 
-## 📘 Descripción General
+## 📘 CONTENIDO DEL PROYECTO
 
 **Appbank** es una aplicación desarrollada en **Java** con **Spring Boot**, que simula las operaciones básicas de un sistema bancario digital.  
 El sistema permite la gestión de clientes, la creación de cuentas (de ahorro o corriente), depósitos, retiros, transferencias y aplicación de intereses.
@@ -23,7 +23,7 @@ El sistema permite la gestión de clientes, la creación de cuentas (de ahorro o
 Su arquitectura se basa en el modelo **MVC (Modelo-Vista-Controlador)** y sigue principios de **programación orientada a objetos (POO)** y **buenas prácticas de diseño**, como separación de responsabilidades y uso de interfaces.
 
 **DOCUMENTACION DE LOS PAQUETES Y SUS FUNCIONES**
-## 🧩 Paquetes Principales
+## 🧩 PAQUETES PRINCIPALES
 
 🧱 Estructura de Paquetes del Proyecto Appbank
 🏁 com.logsoluprobl.appbank
