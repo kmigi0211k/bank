@@ -61,7 +61,7 @@ Money.java → clase para manejar cantidades monetarias.
 
 Transaction.java → representa un movimiento financiero (fecha, monto, tipo de operación).
 
-👉 definir la estructura de los datos y las reglas básicas de cada entidad del sistema.
+👉 se encarga de definir la estructura de los datos y las reglas básicas de cada entidad del sistema.
 
 
 💾 com.logsoluprobl.appbank.repository
@@ -76,7 +76,7 @@ JsonRepository.java → guarda y carga información en formato JSON.
 
 FileManager.java → gestiona la lectura y escritura en archivos locales.
 
-👉  actuar como capa de persistencia, separando el acceso a datos del resto de la lógica del sistema.
+👉 se encarga en actuar como capa de persistencia, separando el acceso a datos del resto de la lógica del sistema.
 
 ⚙️ com.logsoluprobl.appbank.service
 
@@ -92,7 +92,7 @@ BankServiceImpl.java → implementación de la interfaz, con toda la lógica rea
 
 InterestStrategy.java → interfaz del patrón Strategy para definir estrategias de cálculo de interés.
 
-👉 procesar las operaciones del banco, aplicar validaciones, y coordinar los repositorios.
+👉 su principal funcion procesar las operaciones del banco, aplicar validaciones, y coordinar los repositorios.
 
 📈 com.logsoluprobl.appbank.service.strategy
 
@@ -107,7 +107,7 @@ SimpleRateStrategy.java → aplica una tasa de interés fija a las cuentas de ah
 TieredRateStrategy → aplica tasas variables según el saldo (por ejemplo, 3% hasta cierto monto, 5% si supera un umbral).
 Ideal para bancos que premian saldos más altos.
 
- proporcionar flexibilidad para definir distintas formas de calcular intereses.
+👉 se encarga de proporcionar flexibilidad para definir distintas formas de calcular intereses.
 
 🧰 com.logsoluprobl.appbank.util
 
@@ -117,3 +117,12 @@ Suele incluir funciones estáticas reutilizables en distintas capas.
 
 ##Clase:
 JsonUtil  gestiona conversiones entre objetos Java y JSON (por ejemplo, usando Gson o Jackson).
+
+👉 su responsabilidad es facilitar tareas comunes sin mezclar lógica de negocio.
+
+#POSTAMN PARA VER LAS EJECUCIONES
+
+#crear clientes
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a05ad998-e265-437c-9f90-13eb85af880e" />
+
