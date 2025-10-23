@@ -136,6 +136,12 @@ Uso de métodos HTTP estándar que veremos en las siguiente ejecuciones que hice
 
 **DELETE:** Eliminar recursos.
 
+**🚀 ¿Por qué Postman es tan útil en el desarrollo de APIs?**
+Aquí tienes una descripción completa de sus ventajas:
+
+**✅ Flexibilidad**
+Su interfaz gráfica permite crear y enviar peticiones HTTP sin necesidad de escribir código.
+
 **CREAR CLIENTES**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/37377933-de3b-42d1-b9a7-247c68229d84" />
 
