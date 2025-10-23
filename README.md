@@ -125,6 +125,17 @@ JsonUtil  gestiona conversiones entre objetos Java y JSON (por ejemplo, usando G
 
 **POSTMAN PARA VER EJECUCIONES**
 
+🔧 Principios clave de una API RESTful
+Uso de métodos HTTP estándar que veremos en las siguiente ejecuciones que hice en el aplicativo postman.
+
+**GET:** Obtener datos.
+
+**POST:** Crear nuevos recursos.
+
+**PUT:** Actualizar recursos existentes.
+
+**DELETE:** Eliminar recursos.
+
 **CREAR CLIENTES**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/37377933-de3b-42d1-b9a7-247c68229d84" />
 
