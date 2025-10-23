@@ -1,6 +1,6 @@
 # 🏦 Banco API- ProyectoBanco
 
-**Banco API** es una aplicación RESTful hecha con Spring Boot que simula las funciones básicas de un banco, como manejar clientes, cuentas, depósitos, retiros, transferencias y calcular intereses. Está pensada como una herramienta práctica para aprender a desarrollar servicios backend en Java, con una estructura clara, modular y fácil de escalar.
+**Banco API** es una aplicación **RESTful** hecha con Spring Boot que simula las funciones básicas de un banco, como manejar clientes, cuentas, depósitos, retiros, transferencias y calcular intereses. Está pensada como una herramienta práctica para aprender a desarrollar servicios backend en Java, con una estructura clara, modular y fácil de escalar.
 
 Utilizamos programación orientada a objetos con el fin de aprender y aplicar esta técnica de desarrollo, lo que nos permitió comprender a fondo cómo funciona el proyecto. Para lograrlo, nos apoyamos en los conceptos básicos de la teoría como:
 
@@ -35,7 +35,7 @@ Aquí está el punto de entrada del programa: AppbankApplication.java.
 
 🌐 com.logsoluprobl.appbank.controller
 
-**Función:** Maneja las peticiones HTTP del usuario (API REST).
+**Función:** Maneja las peticiones HTTP del usuario **(API REST)**.
 Define los endpoints del sistema y se comunica con los servicios para ejecutar operaciones bancarias.
 
 **Clase principal:**
