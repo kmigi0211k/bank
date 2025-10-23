@@ -2,17 +2,18 @@
 
 **Banco API** es una aplicación RESTful hecha con Spring Boot que simula las funciones básicas de un banco, como manejar clientes, cuentas, depósitos, retiros, transferencias y calcular intereses. Está pensada como una herramienta práctica para aprender a desarrollar servicios backend en Java, con una estructura clara, modular y fácil de escalar.
 
-Utilizamos programación orientada a objetos con el fin de aprender y aplicar esta técnica de desarrollo, lo que nos permitió comprender a fondo cómo funciona el proyecto. Para lograrlo, nos apoyamos en los conceptos básicos de la teoría, como:
+Utilizamos programación orientada a objetos con el fin de aprender y aplicar esta técnica de desarrollo, lo que nos permitió comprender a fondo cómo funciona el proyecto. Para lograrlo, nos apoyamos en los conceptos básicos de la teoría como:
 
-Objetos, que representan entidades reales dentro del sistema y nos permiten interactuar con sus propiedades y comportamientos.
+**Objetos:** que representan entidades reales dentro del sistema y nos permiten interactuar con sus propiedades y comportamientos.
 
-Abstracción, para centrarnos en los aspectos esenciales de cada entidad, ocultando detalles innecesarios y facilitando la comprensión del sistema.
+**Abstracción:** para centrarnos en los aspectos esenciales de cada entidad, ocultando detalles innecesarios y facilitando la comprensión del sistema.
 
-Clases, que definieron las estructuras principales del sistema, como clientes, cuentas y transacciones, sirviendo como plantillas para crear objetos.
+**Clases:** que definieron las estructuras principales del sistema, como clientes, cuentas y transacciones, sirviendo como plantillas para crear objetos se
+pueden definir como los moldes que se van a usar para crear los metodos de las funciones del banco.
 
-Modelos, que nos ayudaron a representar los datos de forma organizada y coherente, facilitando la comunicación entre la lógica del negocio.
+**Modelos:** que nos ayudaron a representar los datos de forma organizada y coherente, facilitando la comunicación entre la lógica del negocio.
 
-Herencia, que permitió reutilizar código y establecer relaciones entre clases, haciendo el sistema más limpio, flexible y escalable.
+**Herencia:** que permitió reutilizar código y establecer relaciones entre clases, haciendo el sistema más limpio, flexible y escalable.
 
 ## 📘 Descripción General
 
@@ -21,7 +22,7 @@ El sistema permite la gestión de clientes, la creación de cuentas (de ahorro o
 
 Su arquitectura se basa en el modelo **MVC (Modelo-Vista-Controlador)** y sigue principios de **programación orientada a objetos (POO)** y **buenas prácticas de diseño**, como separación de responsabilidades y uso de interfaces.
 
-##DOCUMENTACION DE LOS PAQUETES Y SUS FUNCIONES
+**DOCUMENTACION DE LOS PAQUETES Y SUS FUNCIONES**
 ## 🧩 Paquetes Principales
 
 🧱 Estructura de Paquetes del Proyecto Appbank
