@@ -130,7 +130,7 @@ Uso de métodos HTTP estándar que veremos en las siguiente ejecuciones que hice
 
 **GET:** Obtener datos.
 
-**POST:** Crear nuevos recursos.
+**POST:** Crear nuevos clientes.
 
 **PUT:** Actualizar recursos existentes.
 
@@ -139,7 +139,7 @@ Uso de métodos HTTP estándar que veremos en las siguiente ejecuciones que hice
 **🚀 ¿Por qué Postman es tan útil en el desarrollo de APIs?**
 
 **🧪 Pruebas rápidas y efectivas**
-probar endpoints RESTful (GET, POST, PUT, DELETE) en segundos.
+probar endpoints RESTful **(GET, POST, PUT, DELETE)** en segundos.
 Muestra respuestas detalladas con códigos de estado, tiempos de ejecución y estructuras JSON.
 
 **✅ Flexibilidad**
