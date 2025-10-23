@@ -10,7 +10,7 @@ Abstracción, para centrarnos en los aspectos esenciales de cada entidad, oculta
 
 Clases, que definieron las estructuras principales del sistema, como clientes, cuentas y transacciones, sirviendo como plantillas para crear objetos.
 
-Modelos, que nos ayudaron a representar los datos de forma organizada y coherente, facilitando la comunicación entre la lógica del negocio y la base de datos.
+Modelos, que nos ayudaron a representar los datos de forma organizada y coherente, facilitando la comunicación entre la lógica del negocio.
 
 Herencia, que permitió reutilizar código y establecer relaciones entre clases, haciendo el sistema más limpio, flexible y escalable.
 
@@ -56,7 +56,6 @@ Permite lanzar excepciones controladas cuando se presentan casos como saldo insu
 **Función:** Contiene las entidades del dominio (modelos del mundo real dentro del sistema bancario).
 
 **Clases principales:**
-
 Customer.java → representa un cliente (id, nombre, email, lista de cuentas).
 
 Account.java → clase abstracta base para las cuentas (atributos comunes como saldo y número de cuenta).
@@ -106,7 +105,6 @@ InterestStrategy.java → interfaz del patrón Strategy para definir estrategias
 Permite intercambiar diferentes formas de cálculo sin alterar el código principal.
 
 **Clase:**
-
 SimpleRateStrategy.java → aplica una tasa de interés fija a las cuentas de ahorro.
 
 TieredRateStrategy → aplica tasas variables según el saldo (por ejemplo, 3% hasta cierto monto, 5% si supera un umbral).
@@ -126,48 +124,48 @@ JsonUtil  gestiona conversiones entre objetos Java y JSON (por ejemplo, usando G
 
 **POSTMAN PARA VER EJECUCIONES**
 
-CREAR CLIENTES
+**CREAR CLIENTES**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/37377933-de3b-42d1-b9a7-247c68229d84" />
 
 
 
-LISTAR CLIENTES
+**LISTAR CLIENTES**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c1a9ff77-4ed3-407a-8c92-825d43d28e9c" />
 
 
 
 
-BUSCAR CLIENTE POR ID
+**BUSCAR CLIENTE POR ID**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9745d9f1-fd4f-4549-968b-640c3e04a2b8" />
 
 
 
-CREAR CUENTA AHORROS
+**CREAR CUENTA AHORROS**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/19e794d8-27e1-460d-baf3-3ef178758eb5" />
 
 
 
-CREAR CUENTA CORRIENTE
+**CREAR CUENTA CORRIENTE**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e01d0d4f-7dc0-430e-b0a4-7cb8b6450b3c" />
 
 
-DEPOSITAR DINERO
+**DEPOSITAR DINERO**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cb681783-ab75-4a5f-9be8-9074aa0dd060" />
 
 
-RETIRAR DINERO
+**RETIRAR DINERO**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8f8fff73-39a5-455f-9c61-b825b6359fb4" />
 
 
-TRANSFERIR DINERO
+**TRANSFERIR DINERO**
 <img width="1366" height="765" alt="image" src="https://github.com/user-attachments/assets/5655510e-837d-4361-ab1c-56418ab9a943" />
 
 
-VER TRANSACCIONES
+**VER TRANSACCIONES**
 <img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/9aea2f7b-077e-4b44-b539-0bd6f5f1f591" />
 
 
-APLICAR INTERESES
+**APLICAR INTERESES**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/deef55d2-80ea-4000-8439-6381643d6cbb" />
 
 
