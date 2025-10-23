@@ -132,9 +132,9 @@ Uso de métodos HTTP estándar que veremos en las siguiente ejecuciones que hice
 
 **POST:** Crear nuevos clientes.
 
-**PUT:** Actualizar recursos existentes.
+**PUT:** Actualizar.
 
-**DELETE:** Eliminar recursos.
+**DELETE:** Eliminar.
 
 **🚀 ¿Por qué Postman es tan útil en el desarrollo de APIs?**
 
