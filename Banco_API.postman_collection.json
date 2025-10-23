@@ -1,0 +1,132 @@
+{
+    "info": {
+        "name": "Banco API",
+        "_postman_id": "banco-api-collection",
+        "description": "Colección de pruebas para el proyecto Banco (Spring Boot - API REST)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Crear Cliente",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"id\": \"C001\",\n    \"name\": \"Juan P\\u00e9rez\",\n    \"email\": \"juan.perez@example.com\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/bank/customers",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "bank",
+                        "customers"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Listar Clientes",
+            "request": {
+                "method": "GET",
+                "url": "http://localhost:8080/api/bank/customers"
+            }
+        },
+        {
+            "name": "Buscar Cliente por ID",
+            "request": {
+                "method": "GET",
+                "url": "http://localhost:8080/api/bank/customers/C001"
+            }
+        },
+        {
+            "name": "Crear Cuenta de Ahorros",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"type\": \"SAVINGS\",\n    \"accountId\": \"A1001\",\n    \"parameter\": 0.03\n}"
+                },
+                "url": "http://localhost:8080/api/bank/customers/C001/accounts"
+            }
+        },
+        {
+            "name": "Crear Cuenta Corriente",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"type\": \"CHECKING\",\n    \"accountId\": \"A2001\",\n    \"parameter\": 1000.0\n}"
+                },
+                "url": "http://localhost:8080/api/bank/customers/C001/accounts"
+            }
+        },
+        {
+            "name": "Depositar Dinero",
+            "request": {
+                "method": "POST",
+                "url": "http://localhost:8080/api/bank/accounts/A1001/deposit?amount=5000"
+            }
+        },
+        {
+            "name": "Retirar Dinero",
+            "request": {
+                "method": "POST",
+                "url": "http://localhost:8080/api/bank/accounts/A1001/withdraw?amount=2000"
+            }
+        },
+        {
+            "name": "Transferir Dinero",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"toAccountId\": \"A2001\",\n    \"amount\": 1000.0\n}"
+                },
+                "url": "http://localhost:8080/api/bank/accounts/A1001/transfer"
+            }
+        },
+        {
+            "name": "Ver Transacciones",
+            "request": {
+                "method": "GET",
+                "url": "http://localhost:8080/api/bank/accounts/A1001/transactions"
+            }
+        },
+        {
+            "name": "Aplicar Intereses",
+            "request": {
+                "method": "POST",
+                "url": "http://localhost:8080/api/bank/accounts/A1001/apply-interest"
+            }
+        }
+    ]
+}
