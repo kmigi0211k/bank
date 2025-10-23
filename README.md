@@ -15,7 +15,7 @@ Su arquitectura se basa en el modelo **MVC (Modelo-Vista-Controlador)** y sigue 
 🧱 Estructura de Paquetes del Proyecto Appbank
 🏁 com.logsoluprobl.appbank
 
-#Función:
+Función:
 Contiene la clase principal que inicia toda la aplicación Spring Boot.
 Aquí está el punto de entrada del programa: AppbankApplication.java.
 👉 Su funcion iniciar el contexto de Spring, cargar los beans y lanzar el servidor embebido.
@@ -33,21 +33,21 @@ BankController.java → recibe solicitudes como crear clientes, abrir cuentas, d
 
 ⚠️ com.logsoluprobl.appbank.exception
 
-#Función:
+Función:
 Centraliza el manejo de errores personalizados del dominio.
 Permite lanzar excepciones controladas cuando se presentan casos como saldo insuficiente o cliente inexistente.
 
-##Clase:
+Clase:
 DomainException.java → excepción personalizada para capturar errores específicos del negocio.
 👉 su principal funcion mejorar el manejo de errores y la claridad del código.
 
 
 🧩 com.logsoluprobl.appbank.model
 
-#Función:
+Función:
 Contiene las entidades del dominio (modelos del mundo real dentro del sistema bancario).
 
-##Clases principales:
+Clases principales:
 
 Customer.java → representa un cliente (id, nombre, email, lista de cuentas).
 
@@ -66,11 +66,11 @@ Transaction.java → representa un movimiento financiero (fecha, monto, tipo de 
 
 💾 com.logsoluprobl.appbank.repository
 
-#Función:
+Función:
 Encargado del almacenamiento y recuperación de datos.
 Simula la persistencia de información usando archivos JSON o texto (sin base de datos real).
 
-##Clases principales:
+Clases principales:
 
 JsonRepository.java → guarda y carga información en formato JSON.
 
@@ -80,11 +80,11 @@ FileManager.java → gestiona la lectura y escritura en archivos locales.
 
 ⚙️ com.logsoluprobl.appbank.service
 
-#Función:
+Función:
 Contiene la lógica de negocio del sistema bancario.
 Aquí se definen y ejecutan las reglas que controlan las operaciones.
 
-##Clases principales:
+Clases principales:
 
 BankService.java → interfaz que define las operaciones del banco (crear cliente, depositar, transferir, etc.).
 
@@ -96,11 +96,11 @@ InterestStrategy.java → interfaz del patrón Strategy para definir estrategias
 
 📈 com.logsoluprobl.appbank.service.strategy
 
-#Función:
+Función:
 Define las estrategias concretas para calcular intereses.
 Permite intercambiar diferentes formas de cálculo sin alterar el código principal.
 
-##Clase:
+Clase:
 
 SimpleRateStrategy.java → aplica una tasa de interés fija a las cuentas de ahorro.
 
@@ -111,18 +111,64 @@ Ideal para bancos que premian saldos más altos.
 
 🧰 com.logsoluprobl.appbank.util
 
-#Función:
+Función:
 Contiene clases auxiliares y utilitarias que apoyan la funcionalidad del proyecto.
 Suele incluir funciones estáticas reutilizables en distintas capas.
 
-##Clase:
+Clase:
 JsonUtil  gestiona conversiones entre objetos Java y JSON (por ejemplo, usando Gson o Jackson).
 
 👉 su responsabilidad es facilitar tareas comunes sin mezclar lógica de negocio.
 
-#POSTAMN PARA VER LAS EJECUCIONES
+POSTMAN PARA VER EJECUCIONES
 
-#crear clientes
+CREAR CLIENTES
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/37377933-de3b-42d1-b9a7-247c68229d84" />
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a05ad998-e265-437c-9f90-13eb85af880e" />
+
+
+LISTAR CLIENTES
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c1a9ff77-4ed3-407a-8c92-825d43d28e9c" />
+
+
+
+
+BUSCAR CLIENTE POR ID
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9745d9f1-fd4f-4549-968b-640c3e04a2b8" />
+
+
+
+CREAR CUENTA AHORROS
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/19e794d8-27e1-460d-baf3-3ef178758eb5" />
+
+
+
+CREAR CUENTA CORRIENTE
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e01d0d4f-7dc0-430e-b0a4-7cb8b6450b3c" />
+
+
+DEPOSITAR DINERO
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cb681783-ab75-4a5f-9be8-9074aa0dd060" />
+
+
+RETIRAR DINERO
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8f8fff73-39a5-455f-9c61-b825b6359fb4" />
+
+
+TRANSFERIR DINERO
+<img width="1366" height="765" alt="image" src="https://github.com/user-attachments/assets/5655510e-837d-4361-ab1c-56418ab9a943" />
+
+
+VER TRANSACCIONES
+<img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/9aea2f7b-077e-4b44-b539-0bd6f5f1f591" />
+
+
+APLICAR INTERESES
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/deef55d2-80ea-4000-8439-6381643d6cbb" />
+
+
+
+
+
+
 
