@@ -1,7 +1,18 @@
-# 🏦 Banco API
+# 🏦 Banco API- ProyectoBanco
 
-**Banco API** es una aplicación RESTful desarrollada en **Spring Boot** que simula las operaciones básicas de un sistema bancario, incluyendo la gestión de clientes, cuentas, depósitos, retiros, transferencias y cálculo de intereses.  
-Su propósito es ofrecer una arquitectura limpia, modular y escalable para la práctica de desarrollo de servicios backend en Java.
+**Banco API** es una aplicación RESTful hecha con Spring Boot que simula las funciones básicas de un banco, como manejar clientes, cuentas, depósitos, retiros, transferencias y calcular intereses. Está pensada como una herramienta práctica para aprender a desarrollar servicios backend en Java, con una estructura clara, modular y fácil de escalar.
+
+Utilizamos programación orientada a objetos con el fin de aprender y aplicar esta técnica de desarrollo, lo que nos permitió comprender a fondo cómo funciona el proyecto. Para lograrlo, nos apoyamos en los conceptos básicos de la teoría, como:
+
+Objetos, que representan entidades reales dentro del sistema y nos permiten interactuar con sus propiedades y comportamientos.
+
+Abstracción, para centrarnos en los aspectos esenciales de cada entidad, ocultando detalles innecesarios y facilitando la comprensión del sistema.
+
+Clases, que definieron las estructuras principales del sistema, como clientes, cuentas y transacciones, sirviendo como plantillas para crear objetos.
+
+Modelos, que nos ayudaron a representar los datos de forma organizada y coherente, facilitando la comunicación entre la lógica del negocio y la base de datos.
+
+Herencia, que permitió reutilizar código y establecer relaciones entre clases, haciendo el sistema más limpio, flexible y escalable.
 
 ## 📘 Descripción General
 
@@ -10,44 +21,41 @@ El sistema permite la gestión de clientes, la creación de cuentas (de ahorro o
 
 Su arquitectura se basa en el modelo **MVC (Modelo-Vista-Controlador)** y sigue principios de **programación orientada a objetos (POO)** y **buenas prácticas de diseño**, como separación de responsabilidades y uso de interfaces.
 
+##DOCUMENTACION DE LOS PAQUETES Y SUS FUNCIONES
 ## 🧩 Paquetes Principales
 
 🧱 Estructura de Paquetes del Proyecto Appbank
 🏁 com.logsoluprobl.appbank
 
-Función:
+**Función:**
 Contiene la clase principal que inicia toda la aplicación Spring Boot.
 Aquí está el punto de entrada del programa: AppbankApplication.java.
 👉 Su funcion iniciar el contexto de Spring, cargar los beans y lanzar el servidor embebido.
 
 🌐 com.logsoluprobl.appbank.controller
 
-#Función:
-Maneja las peticiones HTTP del usuario (API REST).
+**Función:** Maneja las peticiones HTTP del usuario (API REST).
 Define los endpoints del sistema y se comunica con los servicios para ejecutar operaciones bancarias.
 
-##Clase principal:
+**Clase principal:**
 
 BankController.java → recibe solicitudes como crear clientes, abrir cuentas, depositar, retirar, transferir dinero y consultar transacciones.
 👉 su funcion servir como interfaz entre el cliente (Postman o frontend) y la lógica del sistema.
 
 ⚠️ com.logsoluprobl.appbank.exception
 
-Función:
-Centraliza el manejo de errores personalizados del dominio.
+**Función:** Centraliza el manejo de errores personalizados del dominio.
 Permite lanzar excepciones controladas cuando se presentan casos como saldo insuficiente o cliente inexistente.
 
-Clase:
-DomainException.java → excepción personalizada para capturar errores específicos del negocio.
+**Clase:** DomainException.java → excepción personalizada para capturar errores específicos del negocio.
 👉 su principal funcion mejorar el manejo de errores y la claridad del código.
 
 
 🧩 com.logsoluprobl.appbank.model
 
-Función:
-Contiene las entidades del dominio (modelos del mundo real dentro del sistema bancario).
+**Función:** Contiene las entidades del dominio (modelos del mundo real dentro del sistema bancario).
 
-Clases principales:
+**Clases principales:**
 
 Customer.java → representa un cliente (id, nombre, email, lista de cuentas).
 
@@ -66,11 +74,10 @@ Transaction.java → representa un movimiento financiero (fecha, monto, tipo de 
 
 💾 com.logsoluprobl.appbank.repository
 
-Función:
-Encargado del almacenamiento y recuperación de datos.
+**Función:** Encargado del almacenamiento y recuperación de datos.
 Simula la persistencia de información usando archivos JSON o texto (sin base de datos real).
 
-Clases principales:
+**Clases principales:**
 
 JsonRepository.java → guarda y carga información en formato JSON.
 
@@ -80,11 +87,10 @@ FileManager.java → gestiona la lectura y escritura en archivos locales.
 
 ⚙️ com.logsoluprobl.appbank.service
 
-Función:
-Contiene la lógica de negocio del sistema bancario.
+**Función:** Contiene la lógica de negocio del sistema bancario.
 Aquí se definen y ejecutan las reglas que controlan las operaciones.
 
-Clases principales:
+**Clases principales:**
 
 BankService.java → interfaz que define las operaciones del banco (crear cliente, depositar, transferir, etc.).
 
@@ -96,11 +102,10 @@ InterestStrategy.java → interfaz del patrón Strategy para definir estrategias
 
 📈 com.logsoluprobl.appbank.service.strategy
 
-Función:
-Define las estrategias concretas para calcular intereses.
+**Función:** Define las estrategias concretas para calcular intereses.
 Permite intercambiar diferentes formas de cálculo sin alterar el código principal.
 
-Clase:
+**Clase:**
 
 SimpleRateStrategy.java → aplica una tasa de interés fija a las cuentas de ahorro.
 
@@ -111,16 +116,15 @@ Ideal para bancos que premian saldos más altos.
 
 🧰 com.logsoluprobl.appbank.util
 
-Función:
-Contiene clases auxiliares y utilitarias que apoyan la funcionalidad del proyecto.
+**Función:** Contiene clases auxiliares y utilitarias que apoyan la funcionalidad del proyecto.
 Suele incluir funciones estáticas reutilizables en distintas capas.
 
-Clase:
+**Clase:**
 JsonUtil  gestiona conversiones entre objetos Java y JSON (por ejemplo, usando Gson o Jackson).
 
 👉 su responsabilidad es facilitar tareas comunes sin mezclar lógica de negocio.
 
-POSTMAN PARA VER EJECUCIONES
+**POSTMAN PARA VER EJECUCIONES**
 
 CREAR CLIENTES
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/37377933-de3b-42d1-b9a7-247c68229d84" />
