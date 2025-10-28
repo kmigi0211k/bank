@@ -189,6 +189,10 @@ Su interfaz gráfica permite crear y enviar peticiones HTTP sin necesidad de esc
 **APLICAR INTERESES**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/deef55d2-80ea-4000-8439-6381643d6cbb" />
 
+#PRUEBAS SWAGGER
+**METODO POST CREAR CLIENTE**
+<img width="1920" height="995" alt="image" src="https://github.com/user-attachments/assets/72771cd0-170b-45e6-b371-ea948f56c546" />
+
 
 
 
