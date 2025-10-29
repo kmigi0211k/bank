@@ -193,7 +193,7 @@ Su interfaz gráfica permite crear y enviar peticiones HTTP sin necesidad de esc
 **💡 ¿Qué es Swagger?**
 
 Swagger es una herramienta que sirve para documentar, visualizar y probar APIs REST de forma gráfica y automática.
-Cuando tu proyecto usa Swagger, puedes abrir una página como esta tenemos que tener en cuenta que esta es una dependencia
+Cuando tu proyecto usa Swagger, tenemos que tener en cuenta que esta es una dependencia
 por lo tanto hay que asignarla en el archivo pom.xml.
 
 <img width="1005" height="697" alt="image" src="https://github.com/user-attachments/assets/ec209990-d932-49ee-89e5-bae40c8a4abe" />
