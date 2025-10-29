@@ -190,11 +190,49 @@ Su interfaz gráfica permite crear y enviar peticiones HTTP sin necesidad de esc
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/deef55d2-80ea-4000-8439-6381643d6cbb" />
 
 #PRUEBAS SWAGGER
-**METODO GET MOSTRAR CLIENTE**
-<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/f8c1324d-dcc9-4cc2-b588-c85774088c4b" />
+1️⃣ GET /api/bank/customers
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ca8abfc1-47f1-4747-a5b5-2638c3cb30f6" />
 
-**METODO POST CREAR CLIENTE**
-<img width="1920" height="995" alt="image" src="https://github.com/user-attachments/assets/72771cd0-170b-45e6-b371-ea948f56c546" />
+
+
+
+2️⃣ POST /api/bank/customers
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2ac1c7e2-ced7-492d-8c7c-4aec52d309e5" />
+
+
+
+3️⃣ GET /api/bank/customers/{customerId}/accounts
+
+<img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/586e2075-15ca-4b95-b3cf-4a4a8c563fda" />
+
+
+
+4️⃣ POST /api/bank/customers/{customerId}/accounts
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8c9f9f9d-04ca-42f4-9114-f2ebe0e6bbe7" />
+
+
+
+5️⃣ POST /api/bank/accounts/{fromAccountId}/transfer
+
+
+
+6️⃣ POST /api/bank/accounts/{accountId}/withdraw
+
+7️⃣ POST /api/bank/accounts/{accountId}/deposit
+
+8️⃣ POST /api/bank/accounts/{accountId}/apply-interest
+
+9️⃣ GET /api/bank/customers/{customerId}
+
+🔟 GET /api/bank/accounts/{accountId}
+
+1️⃣1️⃣ GET /api/bank/accounts/{accountId}/transactions
+
+
+
+
+
+
 
 
 
