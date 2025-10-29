@@ -208,10 +208,10 @@ http://localhost:8080/swagger-ui/index.html
 
 
 
-#**1️ GET /api/bank/customers**
+**1️ GET /api/bank/customers**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0a84f960-c1c0-40ea-907c-3febf0c077a9" />
 
-#**2️ POST /api/bank/customers**
+**2️ POST /api/bank/customers**
 <img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/39ea903d-8596-4ea9-9252-62d228cda167" />
 
 **3️ GET /api/bank/customers/{customerId}/accounts**
