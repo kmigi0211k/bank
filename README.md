@@ -196,16 +196,12 @@ Swagger es una herramienta que sirve para documentar, visualizar y probar APIs R
 Cuando tu proyecto usa Swagger, puedes abrir una página como esta tenemos que tener en cuenta que esta es una dependencia
 por lo tanto hay que asignarla en el archivo pom.xml.
 
-**pom.xml
-</dependency>
-		<dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-            <version>2.2.0</version>
-        </dependency>
-		<dependency>**
+<img width="1005" height="697" alt="image" src="https://github.com/user-attachments/assets/ec209990-d932-49ee-89e5-bae40c8a4abe" />
 
-    
+**OpenApiConfi**
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/bed66feb-ceae-459a-8ca3-cb041429f373" />
+
+
 
  **Esta es la ruta para ver la documentacion**
 http://localhost:8080/swagger-ui/index.html
