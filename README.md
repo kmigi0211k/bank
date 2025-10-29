@@ -189,63 +189,51 @@ Su interfaz gráfica permite crear y enviar peticiones HTTP sin necesidad de esc
 **APLICAR INTERESES**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/deef55d2-80ea-4000-8439-6381643d6cbb" />
 
-#PRUEBAS SWAGGER
-1️⃣ GET /api/bank/customers
+**#PRUEBAS SWAGGER**
+**💡 ¿Qué es Swagger?**
 
+Swagger es una herramienta que sirve para documentar, visualizar y probar APIs REST de forma gráfica y automática.
+Cuando tu proyecto usa Swagger, puedes abrir una página como esta:
+
+ **Esta es la ruta para ver la documentacion**
+http://localhost:8080/swagger-ui/index.html
+
+
+
+**1️ GET /api/bank/customers**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0a84f960-c1c0-40ea-907c-3febf0c077a9" />
 
-
-
-
-2️⃣ POST /api/bank/customers
+**2️ POST /api/bank/customers**
 <img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/39ea903d-8596-4ea9-9252-62d228cda167" />
 
-
-
-
-
-3️⃣ GET /api/bank/customers/{customerId}/accounts
+**3️ GET /api/bank/customers/{customerId}/accounts**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7988ccc7-0539-407a-8511-6916c170d5da" />
 
-
-
-
-
-4️⃣ POST /api/bank/customers/{customerId}/accounts
+**4️ POST /api/bank/customers/{customerId}/accounts**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fb58582b-acb6-4205-940c-9362abe00286" />
 
-
-
-
-
-5️⃣ POST /api/bank/accounts/{fromAccountId}/transfer
+**5️ POST /api/bank/accounts/{fromAccountId}/transfer**
 <img width="1366" height="767" alt="image" src="https://github.com/user-attachments/assets/6241f8d9-0eed-4d91-863b-6624be11e505" />
 
-
-
-
-
-6️⃣ POST /api/bank/accounts/{accountId}/withdraw
+**6️ POST /api/bank/accounts/{accountId}/withdraw**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c605706c-d15b-4a83-b32d-121d2650b0ff" />
 
-
-7️⃣ POST /api/bank/accounts/{accountId}/deposit
+**7️ POST /api/bank/accounts/{accountId}/deposit**
 <img width="1365" height="768" alt="image" src="https://github.com/user-attachments/assets/16ba0375-b99b-4ebb-9e6d-30a39265fc9a" />
 
-
-8️⃣ POST /api/bank/accounts/{accountId}/apply-interest
+**8️ POST /api/bank/accounts/{accountId}/apply-interest**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a9ef2ce3-760e-4c45-9cb3-ffb93ab4b199" />
 
 
-9️⃣ GET /api/bank/customers/{customerId}
+**9️ GET /api/bank/customers/{customerId}**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c2f118b6-0ffc-463a-a832-42a1b2850e3c" />
 
 
-🔟 GET /api/bank/accounts/{accountId}
+**10 GET /api/bank/accounts/{accountId}**
 <img width="1365" height="765" alt="image" src="https://github.com/user-attachments/assets/6f93711d-25a8-4b82-833d-db949efc5603" />
 
 
-1️⃣1️⃣ GET /api/bank/accounts/{accountId}/transactions
+**1️1 GET /api/bank/accounts/{accountId}/transactions**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cabf11ef-96fa-4bf1-8538-a14b800cca6b" />
 
 
