@@ -212,13 +212,15 @@ Su interfaz gráfica permite crear y enviar peticiones HTTP sin necesidad de esc
 
 
 4️⃣ POST /api/bank/customers/{customerId}/accounts
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c2516e01-3ade-408b-9f1b-9417db794a48" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fb58582b-acb6-4205-940c-9362abe00286" />
+
 
 
 
 
 5️⃣ POST /api/bank/accounts/{fromAccountId}/transfer
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/df2e18a9-b2b0-4549-81e5-6a5a3a752350" />
+<img width="1366" height="767" alt="image" src="https://github.com/user-attachments/assets/6241f8d9-0eed-4d91-863b-6624be11e505" />
+
 
 
 
