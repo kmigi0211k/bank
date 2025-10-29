@@ -193,7 +193,19 @@ Su interfaz gráfica permite crear y enviar peticiones HTTP sin necesidad de esc
 **💡 ¿Qué es Swagger?**
 
 Swagger es una herramienta que sirve para documentar, visualizar y probar APIs REST de forma gráfica y automática.
-Cuando tu proyecto usa Swagger, puedes abrir una página como esta:
+Cuando tu proyecto usa Swagger, puedes abrir una página como esta tenemos que tener en cuenta que esta es una dependencia
+por lo tanto hay que asignarla en el archivo pom.xml.
+
+**pom.xml
+</dependency>
+		<dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+		<dependency>**
+
+    
 
  **Esta es la ruta para ver la documentacion**
 http://localhost:8080/swagger-ui/index.html
